@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  padding-top: 100px;
+  width: 768px;
+  margin: 0 auto;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.search-field {
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.results {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 24px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.results .friend {
+  height: 40px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #E4E4E4;
+  border-radius: 5px;
+}
+
+.results .friend .username {
+  display: inline-block;
+  color: #ababab;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.results>span {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
